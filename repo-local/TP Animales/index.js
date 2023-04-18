@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var ara_a_1 = require("./ara\u00F1a");
+var gato_1 = require("./gato");
+var listaDeAnimales_1 = require("./listaDeAnimales");
+var pez_1 = require("./pez");
+var gato1 = new gato_1.Gato(4, "Carbon");
+var pez1 = new pez_1.Pez("Juanito");
+var araña1 = new ara_a_1.Araña(8);
+var lista = new listaDeAnimales_1.ListaDeAnimales();
+lista.agregarAnimal(gato1);
+lista.agregarAnimal(pez1);
+lista.agregarAnimal(araña1);
+console.log(lista);
